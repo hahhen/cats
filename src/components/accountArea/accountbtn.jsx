@@ -17,7 +17,6 @@ import Image from "next/image";
 
 export default function AccountArea() {
     const auth = useSession()
-    console.log(auth)
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
