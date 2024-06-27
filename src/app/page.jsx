@@ -25,7 +25,7 @@ export default async function Home() {
       <section className="bg-[#62B4E2] w-full gap-4 rounded-lg flex flex-col p-4 items-center">
         <div className="flex gap-2">
           <h4 className=" text-white scroll-m-20 tracking-tighter transition-colors first:mt-0">
-            Editor's Picks
+            Editor&apos;s Picks
           </h4>
           <Star fill="#FFD900" stroke="#FFD900" />
         </div>
