@@ -23,7 +23,7 @@ export default function AccountArea() {
             <DropdownMenuTrigger asChild>
                 <Button variant="outline" size="icon" className="h-8 w-8 rounded-full" ><User color="hsl(var(--muted-foreground))" size={18} /></Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-screen max-w-[250px] ">
+            <DropdownMenuContent align="end" className="w-screen max-w-[250px]">
                 {auth.data ?
                     <>
                         <div className="flex items-center justify-between">
